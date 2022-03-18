@@ -1,2 +1,2 @@
-# smartbot
-A college project
+# SMARTBOT
+A college project.
