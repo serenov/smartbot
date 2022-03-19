@@ -1,152 +1,161 @@
 *{
-    margin: 0;
-  }
-  body, html{
-    height: 100%;
-  }
-  .container{
-    height: 100%;
-    display: flex;
-    flex-direction: column;
-  }
-  .header{
-    background: #2d2f3a;
-    height: 80px;
-    width: 100%;
-    display: flex;
-    align-items: center;
-  }
-  .smile{
-    height: 100%;
-    width: 80px;
-    background-color: #4158D0;
-  background-image: linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);
-  
-  }
-  .heading{
-    color: white;
-    font-size: 2em;
-    padding: 20px;
-  }
-  .tick{
-    background: #00e577;
-    border-radius: 50px;
-  }
-  #logs{
-    height: 100%;
-    overflow-y: scroll;
-  }
-  .footer{
-    display: flex;
-    position: relative;
-    bottom: 0;
-    padding-top: 5px;
-  }
-  #inputbox{
-    height: 50px;
-    flex: 1;
-    border-radius: 10px;
-    border: 0.5px solid grey;
-    padding-left: 10px;
-    word-break: break-all;
-  }
-  .button{
-    text-align: center;
-    border: none;
-    background: #2d2f3a;
-    right: 0;
-    border-radius: 10px;
-    outline: none;
-    padding-left: 10px;
-  }
-  .robo{
-    height: 50px;
-    width: 50px;
-    background: #00e577;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    border-radius: 200px;  
-    transition: transform 800ms ease-in-out;
-  
-  }
-  .face{
-    height: 50%;
-    width: 70%;
-    background: white;
-    border-radius: 8px;
-    display: flex;
-    position: relative;
-  }
-  .eyes{
-    height: 10px;
-    width: 10px;
-    margin-top: 5px;
-    background: #00e577;
-    border-radius: 5px;
-  } 
-  .left{
-    margin-left: 4px;
-  }
-  .right{
-    margin-left: auto;
-    margin-right: 4px;
-  }
-  .mouth{
-    position: absolute;
-    width: 27px;
-    height: 15%;
-    margin-left: 4px;
-    background: #00e577;
-    border-radius: 20px;
-    bottom: 4px;
-  }
-  .message{
-    max-width: 80%;
-    width: fit-content;
-    padding: 20px;
-    border-radius: 40px;
-    margin-top: 5px;
-    word-break: break-all;
-    font-size: 1.2em;
-  }
-  .bot{
-    background: #c7c7c7;
-  }
-  .user{
-    background: dodgerblue;
-    margin-left: auto;
-    color: white;
-  }
-  .bbut{
-    margin-top: 5px;
-  }
-  .botbutton{
-    background-image: linear-gradient(to right, #02AAB0 0%, #00CDAC  51%, #02AAB0  100%);
-    margin: 10px;
-    padding: 15px 45px;
-    text-align: center;
-    text-transform: uppercase;
-    transition: 0.5s;
-    background-size: 200% auto;
-    color: white;            
-    box-shadow: 0 0 20px #eee;
-    border-radius: 10px;
-  }
-  .botbutton:hover {
-  background-position: right center;
-  color: #fff;
+  margin: 0;
+}
+body, html{
+  height: 100%;
+}
+.container{
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.header{
+  background: #2d2f3a;
+  height: 80px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+.smile{
+  height: 100%;
+  width: 80px;
+  background-color: #4158D0;
+background-image: linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);
+
+}
+.heading{
+  color: white;
+  font-size: 2em;
+  padding: 20px;
+}
+.tick{
+  background: #00e577;
+  border-radius: 50px;
+}
+#logs{
+  height: 100%;
+  overflow-y: scroll;
+}
+.footer{
+  display: flex;
+  position: relative;
+  bottom: 0;
+  padding-top: 5px;
+}
+#inputbox{
+  height: 50px;
+  flex: 1;
+  border-radius: 10px;
+  border: 0.5px solid grey;
+  padding-left: 10px;
+  word-break: break-all;
+}
+.button{
+  text-align: center;
+  border: none;
+  background: #2d2f3a;
+  right: 0;
+  border-radius: 10px;
+  outline: none;
+  padding-left: 10px;
+}
+.robo{
+  height: 50px;
+  width: 50px;
+  background: #00e577;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 200px;  
+  transition: transform 800ms ease-in-out;
+
+}
+.face{
+  height: 50%;
+  width: 70%;
+  background: white;
+  border-radius: 8px;
+  display: flex;
+  position: relative;
+}
+.eyes{
+  height: 10px;
+  width: 10px;
+  margin-top: 5px;
+  background: #00e577;
+  border-radius: 5px;
+} 
+.left{
+  margin-left: 4px;
+}
+.right{
+  margin-left: auto;
+  margin-right: 4px;
+}
+.mouth{
+  position: absolute;
+  width: 27px;
+  height: 15%;
+  margin-left: 4px;
+  background: #00e577;
+  border-radius: 20px;
+  bottom: 4px;
+}
+.message{
+  max-width: 80%;
+  width: fit-content;
+  padding: 20px;
+  border-radius: 40px;
+  margin-top: 5px;
+  word-break: break-all;
+  font-size: 1.2em;
+}
+.bot{
+  background: #c7c7c7;
+}
+.user{
+  background: dodgerblue;
+  margin-left: auto;
+  color: white;
+}
+.bbut{
+  margin-top: 5px;
+}
+.botbutton{
+  background-image: linear-gradient(to right, #02AAB0 0%, #00CDAC  51%, #02AAB0  100%);
+  margin: 10px;
+  padding: 15px 45px;
+  text-align: center;
+  text-transform: uppercase;
+  transition: 0.5s;
+  background-size: 200% auto;
+  color: white;            
+  box-shadow: 0 0 20px #eee;
+  border-radius: 10px;
+}
+.botbutton:hover {
+background-position: right center;
+color: #fff;
+text-decoration: none;
+}
+
+.logo{
+  height: 80px;
+  margin-left: auto;
+}
+input:focus, textarea:focus, select:focus{
+        outline: none;
+ }
+.robo:hover{
+ transform: rotate(360deg);
+}
+.image{
+  margin: 10px;
+  max-width: 70%;
+  border: 0;
+}
+.ltext{
+  display: flex;
+  flex-direction: column;
   text-decoration: none;
-  }
-  
-  .logo{
-    height: 80px;
-    margin-left: auto;
-  }
-  input:focus, textarea:focus, select:focus{
-          outline: none;
-   }
-  .robo:hover{
-   transform: rotate(360deg);
-  }
-  
+}
