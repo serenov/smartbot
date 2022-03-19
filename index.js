@@ -124,11 +124,7 @@ let keywords = [
  {
    keyword: "information",
    ID: 3
- },
- {
-   keyword: "COMPUTER SCIENCE",
-   ID: 3
- },  
+ }, 
  {
    keyword: "mechanical",
    ID: 6
