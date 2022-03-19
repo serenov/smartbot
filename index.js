@@ -189,7 +189,7 @@ let queryResponse = [
       text: "+91 9248727229"
      }, 
      {link: "mailto:info@cmrec.ac.in", 
-      text: "Send mail"
+      text: "info@cmrec.ac.in"
      }
    ]
  },
