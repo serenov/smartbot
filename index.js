@@ -90,23 +90,23 @@ let keywords = [
    ID: 3
  },
  {
-   keyword: "E.C.E",
+   keyword: "e.c.e",
    ID: 3
  },
  {
-   keyword: "ECE",
+   keyword: "ece",
    ID: 3
  },
  {
-   keyword: "C.S.E",
+   keyword: "c.s.e",
    ID: 3
  },
  {
-   keyword: "CSE",
+   keyword: "cse",
    ID: 3
  },
  {
-   keyword: "COMPUTER",
+   keyword: "computer",
    ID: 3
  },
  {
