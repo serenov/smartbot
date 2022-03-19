@@ -87,7 +87,7 @@ function scroll(){
      answer: "CMRN"
    },
    {
-     question: "College map?",
+     question: "College location?",
      answer: "response2"
    },
    {
