@@ -188,8 +188,8 @@ let queryResponse = [
      {link: "http://wa.me/+919248727229", 
       text: "+91 9248727229"
      }, 
-     {link: "info@cmrec.ac.in", 
-      text: "info@cmrec.ac.in"
+     {link: "Send mail", 
+      text: "mailto:info@cmrec.ac.in"
      }
    ]
  },
