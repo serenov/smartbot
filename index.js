@@ -249,7 +249,7 @@ let queryResponse = [
     answer: null,
     rand: [
       "Hi, you can type any question with keywords provided in the questions.",
-      "Hello, you can click on the button from question menu to get an answer.",
+      "Hello, you can click on a button from question menu to get an answer.",
       "Hi!",
       "Wassup!",
       "Hello!"
