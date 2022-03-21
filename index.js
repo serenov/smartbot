@@ -141,6 +141,14 @@ let keywords = [
     ID: 6
   },
   {
+    keyword: "hi",
+    ID: 11
+  },
+  {
+    keyword: "hello",
+    ID: 11
+  },
+  {
     keyword: "infrastructure",
     ID: 7
   },
@@ -235,6 +243,17 @@ let queryResponse = [
     question: null,
     answer:
       "Hey there, I am an FAQ bot made to help  newbies with frequently asked questions."
+  },
+  {
+    question: null,
+    answer: null,
+    rand: [
+      "Hi, you can type any question with keywords provided in the questions.",
+      "Hello, you can click on the button from question menu to get an answer.",
+      "Hi!",
+      "Wassup!",
+      "Hello!"
+    ]
   }
 ];
 
@@ -262,6 +281,7 @@ function main(input) {
     if (queryResponse[j].hlink) misc = linkGen(queryResponse[j].hlink);
     else if (queryResponse[j].media) misc = imgGen(queryResponse[j].media);
     else if (queryResponse[j].map) misc = mapGen(queryResponse[j].map);
+    else if (queryResponse[j].rand) queryResponse[j].answer = queryResponse[j].rand[gRI(0, 4)];
     log(queryResponse[j].answer, "message bot", misc);
   }, 700);
 }
@@ -311,6 +331,10 @@ function mapGen(map) {
   return frame;
 }
 
+//rand gen
+function gRI(min, max) {
+  return Math.floor(Math.random() * (max - min + 1) ) + min;
+}
 
 //booked
 function init(){
