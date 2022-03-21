@@ -226,7 +226,7 @@ let queryResponse = [
   },
   {
     question: "what is the cutoff for CMREC?",
-    answer: "Here is the link showing cutoff in eamcet to get into CMREC",
+    answer: "Here is a link showing cutoff for EAMCET to get into CMREC",
     hlink: [
       {
         link:
