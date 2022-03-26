@@ -1,5 +1,6 @@
 *{
   margin: 0;
+  box-sizing: border-box;
 }
 body, html{
   height: 100%;
@@ -49,7 +50,8 @@ background-image: linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);
   border-radius: 10px;
   border: 0.5px solid grey;
   padding-left: 10px;
-  word-break: break-all;
+  word-wrap: break-word;
+  
 }
 .button{
   text-align: center;
@@ -68,6 +70,7 @@ background-image: linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);
   align-items: center;
   justify-content: center;
   border-radius: 200px;  
+  animation: show 500ms ease-in-out;
   transition: transform 800ms ease-in-out;
 
 }
@@ -110,6 +113,13 @@ background-image: linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);
   margin-top: 5px;
   word-wrap: break-word;
   font-size: 1.2em;
+  animation: show 200ms, ease-in-out;
+}
+@keyframes show{
+  0%{
+    opacity: 0.5;
+    transform: scale(0);
+  }
 }
 .bot{
   background: #c7c7c7;
@@ -120,6 +130,7 @@ background-image: linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);
   color: white;
 }
 .bbut{
+  dispaly: flex;
   margin-top: 5px;
 }
 .botbutton{
@@ -143,6 +154,7 @@ text-decoration: none;
 .logo{
   height: 80px;
   margin-left: auto;
+  background: ;
 }
 input:focus, textarea:focus, select:focus{
         outline: none;
